@@ -1,0 +1,72 @@
+.Forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Button{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 4%;
+    font-family: 'Pinyon Script';
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.Lables{
+    font-family: 'Pinyon Script';
+    font-size: 30px;
+}
+.Inputs{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.Title{
+    font-size: 60px;
+    font-family: 'Nosifer', cursive;
+    color: red;
+}
+
+
+
+.Button:hover{
+    background-color: blue;
+    /* background: transparent; */
+    /* box-shadow: 0 0 20px 10px hsla(54, 83%, 45%, 0.822); */
+
+
+}
+
+.Inputs:focus{
+    /* background-color: gray; */
+    box-shadow: 0 0 10px rgb(31, 233, 4);
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.imageheader{
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 200px;
+    max-height: 300px;
+    
+}
+@media (max-width: 600px) {
+    .header{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,51 @@
+.modal-flex {
+    display: flex;
+    height: 100%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.modal-content {
+    background-color: white;
+    width: 70%;
+    max-width: 640px;
+    height: 70%; 
+    margin: auto; 
+    padding: 50px;
+    /* border: 1px solid black; */
+    border-radius: 20px; 
+}
+
+.submit_button {
+    width: 65px; 
+    height: 65px;
+    /* max-height: 50%; */
+    margin-top: 30px;
+    margin-bottom:20px ;
+    border-radius: 50px;
+    background-color: #FF9A00;
+    text-align: center;
+}
+.lable_display{
+
+    margin: 10px;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+
+}
+
+.font{
+
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: darkgoldenrod 0px 6px 6px 2px;
+
+}
+
+.submit_button:hover{
+    background-color: green;
+}
